@@ -8,7 +8,7 @@
 ## Message format
 
 Message format is in json.
-You start the message with ```<socksock>``` and end with ```</socksock>```
+You start the message with ```<ryyisock>``` and end with ```</ryyisock>```
 
 In between these you put json.
 
@@ -25,7 +25,7 @@ https://learn.microsoft.com/en-us/windows/win32/winsock/complete-server-code
 ## How to build
 
 ```
-CMake . -B build\
+CMake -S . -B build\
 ```
 
 ```
