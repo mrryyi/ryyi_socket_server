@@ -10,7 +10,7 @@
 const char* DEFAULT_PORT = "27015";
 const int DEFAULT_BUFLEN = 512;
 const int WINSOCK_SUCCESS = 0;
-const int RYYI_SUCCESS = 0;
+const int RYYI_SUCCESS = 1;
 const int RYYI_FAILURE = -1;
 // Need to link with Ws2_32.lib
 
