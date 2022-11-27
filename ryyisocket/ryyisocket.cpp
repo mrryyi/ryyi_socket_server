@@ -1,7 +1,5 @@
 #include "ryyisocket.h"
 
-#define WINSOCK_SUCCESS 0
-
 auto initialize_winsock() -> int {
   // Clean up on proper exit of program.
   static std::shared_ptr<void> on_death (nullptr, [] (void*) {
@@ -23,6 +21,8 @@ auto initialize_winsock() -> int {
   initialized = true;
   return RYYI_SUCCESS;
 };
+
+
 
 OneMessageReceiver::OneMessageReceiver() {
     std::cout << "Initializing new socket...\n"; 

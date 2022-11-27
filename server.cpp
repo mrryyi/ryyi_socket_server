@@ -2,8 +2,7 @@
 #define ever ;;
 
 auto main (int, char**) -> void {
-  for(ever) {
-    OneMessageReceiver OMR;
-    OMR.get_message();
-  }
+  MultipleClientsMessageHandler server;
+  server.initialize ("27015");
+  server.run ();
 }
