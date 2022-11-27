@@ -1,5 +1,7 @@
 # C++ windows console server to try out sockets
 
+# This is a WIP: following statements describe my vsion
+
 ## What does it do?
 
 - Reads TCP messages on port 6920
